@@ -1,0 +1,118 @@
+.matches-table__wrapper {
+  background: var(--paper-raised);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius-md);
+  overflow-x: auto;
+}
+
+.matches-table {
+  font-size: 13.5px;
+}
+
+.matches-table thead th {
+  text-align: left;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--ink-faint);
+  font-weight: 600;
+  padding: var(--space-3) var(--space-3);
+  border-bottom: 1.5px solid var(--rule-strong);
+  white-space: nowrap;
+}
+
+.matches-table thead th.num {
+  text-align: right;
+}
+
+.matches-table__row {
+  border-bottom: 1px solid var(--rule);
+}
+
+.matches-table__row:hover {
+  background: var(--navy-tint);
+}
+
+.matches-table__row--alert {
+  background: var(--brick-tint);
+}
+
+.matches-table__row--alert:hover {
+  background: #f0d4d0;
+}
+
+.matches-table__row td,
+.matches-table__subrow td {
+  padding: var(--space-3) var(--space-3);
+  vertical-align: top;
+}
+
+.matches-table__expand-cell {
+  width: 18px;
+  padding-right: 0 !important;
+}
+
+.matches-table__caret {
+  color: var(--ink-faint);
+  font-size: 11px;
+}
+
+.matches-table__concept {
+  font-weight: 500;
+  color: var(--ink);
+  max-width: 260px;
+}
+
+.matches-table__detail {
+  font-size: 12px;
+  color: var(--ink-faint);
+  max-width: 260px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.matches-table__amount {
+  text-align: right;
+  white-space: nowrap;
+}
+
+.matches-table__amount--diff {
+  font-weight: 600;
+}
+
+.matches-table__row--exact .matches-table__amount--diff {
+  color: var(--moss);
+}
+
+.matches-table__row--rounding .matches-table__amount--diff {
+  color: var(--amber);
+}
+
+.matches-table__row--alert .matches-table__amount--diff {
+  color: var(--brick);
+}
+
+.matches-table__multi {
+  font-size: 12px;
+  color: var(--navy);
+  font-weight: 500;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+
+.matches-table__subrow {
+  background: var(--paper);
+  border-bottom: 1px solid var(--rule);
+}
+
+.matches-table__subrow td {
+  padding-top: var(--space-2);
+  padding-bottom: var(--space-2);
+}
+
+.matches-table__empty {
+  color: var(--ink-faint);
+  font-style: italic;
+  padding: var(--space-5);
+}

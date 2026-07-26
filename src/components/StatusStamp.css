@@ -1,0 +1,34 @@
+.status-stamp {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  padding: 3px 9px 4px;
+  border: 1.5px solid currentColor;
+  border-radius: var(--radius-sm);
+  transform: rotate(var(--stamp-rotate, -3deg));
+  white-space: nowrap;
+  user-select: none;
+}
+
+.status-stamp--moss {
+  color: var(--moss);
+  background: var(--moss-tint);
+}
+
+.status-stamp--amber {
+  color: var(--amber);
+  background: var(--amber-tint);
+}
+
+.status-stamp--brick {
+  color: var(--brick);
+  background: var(--brick-tint);
+}
+
+.status-stamp--ink {
+  color: var(--ink-soft);
+  background: var(--rule);
+  border-color: var(--rule-strong);
+}

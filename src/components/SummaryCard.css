@@ -1,0 +1,44 @@
+.summary-card {
+  background: var(--paper-raised);
+  border: 1px solid var(--rule);
+  border-left: 3px solid var(--rule-strong);
+  border-radius: var(--radius-sm);
+  padding: var(--space-4) var(--space-5);
+}
+
+.summary-card--moss {
+  border-left-color: var(--moss);
+}
+
+.summary-card--brick {
+  border-left-color: var(--brick);
+}
+
+.summary-card--navy {
+  border-left-color: var(--navy);
+}
+
+.summary-card--amber {
+  border-left-color: var(--amber);
+}
+
+.summary-card__label {
+  font-size: 12px;
+  color: var(--ink-faint);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin: 0 0 var(--space-2);
+}
+
+.summary-card__value {
+  font-size: 26px;
+  font-weight: 600;
+  color: var(--ink);
+  margin: 0;
+}
+
+.summary-card__sublabel {
+  font-size: 12px;
+  color: var(--ink-faint);
+  margin: var(--space-1) 0 0;
+}

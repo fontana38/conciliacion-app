@@ -15,7 +15,7 @@ export default function AppLayout() {
           <span className="app-header__mark">⊞</span>
           <div>
             <h1 className="app-header__title">Libro de Conciliación</h1>
-            <p className="app-header__subtitle">Banco × Sistema — Supervielle ALAMO</p>
+            <p className="app-header__subtitle">Banco × Sistema</p>
           </div>
         </div>
         <nav className="app-nav">

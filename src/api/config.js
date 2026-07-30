@@ -4,9 +4,12 @@
 
 export const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:3000'
 
+console.log('API_BASE_URL:', API_BASE_URL,import.meta.env.VITE_API_BASE_URL)
+
 export const ENDPOINTS = {
   importBank: '/imports/bank',
   importSystem: '/imports/system',
+  deleteConciliation: '/imports/delete-Conciliation',
   runReconciliation: '/reconciliation/run',
   results: '/reconciliation/results',
   balance: '/reconciliation/balance',

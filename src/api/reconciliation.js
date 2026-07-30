@@ -2,6 +2,8 @@ import { api } from './client'
 import { ENDPOINTS } from './config'
 
 export const reconciliationApi = {
+   deleteConciliation: () =>
+    api.post(ENDPOINTS.deleteConciliation),
   uploadBankFile: (file, { bankCode, bankAccount, period }) =>
     api.postFile(ENDPOINTS.importBank, file, { params: { bankCode, bankAccount, period } }),
   uploadSystemFile: (file, { bankCode, bankAccount, period }) =>
